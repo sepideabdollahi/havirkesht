@@ -1,4 +1,12 @@
-node_modules
-.DS_Store
+﻿node_modules/
+dist/
+build/
+coverage/
+*.zip
 .env
+.env.*
 *.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

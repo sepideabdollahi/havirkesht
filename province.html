@@ -70,57 +70,170 @@
         </div>
 
         <nav class="space-y-2">
-          <!-- Dashboard link -->
-          <a
-            class="flex items-center gap-3 rounded-2xl bg-white/10 px-4 py-3 ring-1 ring-white/10 hover:bg-white/15"
-            href="./dashboard.html"
-            id="navDashboard"
-          >
-            <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M3 12l2-2 4 4 8-8 4 4" />
-              </svg>
-            </span>
-            <span class="font-semibold">داشبورد</span>
-          </a>
+        <a class="flex items-center gap-3 rounded-2xl bg-white/5 px-4 py-3 ring-1 ring-white/10 hover:bg-white/10"
+          href="./dashboard.html">
+          <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M3 12l2-2 4 4 8-8 4 4" />
+            </svg>
+          </span>
+          <span class="font-semibold">داشبورد</span>
+        </a>
 
-          <details class="group rounded-2xl bg-white/5 ring-1 ring-white/10 open:bg-white/10" open>
-            <summary class="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3">
-              <div class="flex items-center gap-3">
-                <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M4 4h16v16H4z"/><path d="M4 9h16"/><path d="M9 4v16"/>
-                  </svg>
-                </span>
-                <span class="font-semibold">داده های اولیه</span>
-              </div>
-              <svg class="h-4 w-4 text-slate-200/70 transition group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </summary>
-
-            <div class="px-4 pb-3">
-              <!-- Active page -->
-              <a class="block rounded-xl bg-white/10 px-3 py-2 text-sm font-semibold text-slate-100 ring-1 ring-white/10" href="./province.html">
-                ثبت استان
-              </a>
-              <a class="mt-1 block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="./crop-year.html">
-                ثبت سال زراعی
-              </a>
+        <details class="group rounded-2xl bg-white/5 ring-1 ring-white/10 open:bg-white/10" open>
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16v16H4z" />
+                  <path d="M4 9h16" />
+                  <path d="M9 4v16" />
+                </svg>
+              </span>
+              <span class="font-semibold">داده های اولیه</span>
             </div>
-          </details>
+            <svg class="h-4 w-4 text-slate-200/70 transition group-open:rotate-180" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </summary>
+
+          <div class="px-4 pb-3">
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="./province.html">ثبت
+              استان</a>
+            <a class="mt-1 block rounded-xl bg-white/10 px-3 py-2 text-sm font-semibold text-slate-100 ring-1 ring-white/10"
+              href="./crop-year.html">
+              ثبت سال زراعی
+            </a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#"> ثبت شهرستان</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#"> ثبت روستا</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت انواع
+              خودرو</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت راننده</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت کارخانه</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت واحد اندازه
+              گیری</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت انواع سم</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت انواع بذر</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت انوع کالا</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت انواع پرداخت
+            </a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت عیار</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت کشاورز</a>
+
+
+          </div>
+        </details>
+
+        <details class="group rounded-2xl bg-white/5 ring-1 ring-white/10 open:bg-white/10" open>
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16v16H4z" />
+                  <path d="M4 9h16" />
+                  <path d="M9 4v16" />
+                </svg>
+              </span>
+              <span class="font-semibold"> عملیات پیمان کار</span>
+            </div>
+            <svg class="h-4 w-4 text-slate-200/70 transition group-open:rotate-180" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </summary>
+
+          <div class="px-4 pb-3">
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="./province.html">
+              ثبت واریزی کارخانه</a>
+            <a class="mt-1 block rounded-xl bg-white/10 px-3 py-2 text-sm font-semibold text-slate-100 ring-1 ring-white/10"
+              href="./crop-year.html">
+              ثبت بذر کارخانه
+            </a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#"> ثبت سم
+              کارخانه</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#"> ثبت شکر
+              کارخانه</a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#">ثبت تفاله کارخانه
+              خودرو</a>
 
 
 
-          <a class="flex items-center gap-3 rounded-2xl bg-white/5 px-4 py-3 ring-1 ring-white/10 hover:bg-white/10" href="#">
-            <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 15a4 4 0 0 1-4 4H7l-4 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/>
-              </svg>
-            </span>
-            <span class="font-semibold">پشتیبانی</span>
-          </a>
-        </nav>
+          </div>
+
+        </details>
+        <div class="flex items-center gap-3">
+          <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16v16H4z" />
+              <path d="M4 9h16" />
+              <path d="M9 4v16" />
+            </svg>
+          </span>
+          <span class="font-semibold"> عملیات کشاورز</span>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16v16H4z" />
+              <path d="M4 9h16" />
+              <path d="M9 4v16" />
+            </svg>
+          </span>
+          <span class="font-semibold"> صورتحساب کشاورزان</span>
+        </div>
+
+
+        <details class="group rounded-2xl bg-white/5 ring-1 ring-white/10 open:bg-white/10" open>
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16v16H4z" />
+                  <path d="M4 9h16" />
+                  <path d="M9 4v16" />
+                </svg>
+              </span>
+              <span class="font-semibold"> گزارش گیری</span>
+            </div>
+            <svg class="h-4 w-4 text-slate-200/70 transition group-open:rotate-180" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </summary>
+
+          <div class="px-4 pb-3">
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="./province.html">
+              گزارش کلی</a>
+            <a class="mt-1 block rounded-xl bg-white/10 px-3 py-2 text-sm font-semibold text-slate-100 ring-1 ring-white/10"
+              href="./crop-year.html">
+              گزارش کارخانه ها
+            </a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#"> گزارش بذر
+            </a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#"> گزارش سم
+            </a>
+            <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#"> گزارش شکر
+            </a>
+             <a class="block rounded-xl px-3 py-2 text-sm text-slate-200/80 hover:bg-white/10" href="#"> گزارش تفاله
+            </a>
+
+
+          </div>
+
+        </details>
+
+
+
+
+      </nav>
 
         <div class="mt-6 rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
           <div class="flex items-center justify-between">
